@@ -1,0 +1,52 @@
+.page,
+.agdevs,
+h1,
+h2 {
+  font-weight: 300;
+}
+
+.page {
+  background-image: url(./bg-gif.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+.wrapper {
+  z-index: 2;
+}
+
+.work-card {
+  animation: fadeIn 1s;
+}
+.work-card2 {
+  animation: fadeIn 2s;
+}
+.work-card3 {
+  animation: fadeIn 3s;
+}
+.work-card4 {
+  animation: fadeIn 4;
+}
+.work-card5 {
+  animation: fadeIn 5s;
+}
+.work-card6 {
+  animation: fadeIn 6s;
+}
+.work-card7 {
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.study-link {
+  text-decoration: none;
+}
